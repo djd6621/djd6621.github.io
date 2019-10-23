@@ -3,5 +3,9 @@ img {
 }
 
 h1 {
-        color: red;
+        color: white;
+}
+
+body {
+        background-color: #595959
 }
