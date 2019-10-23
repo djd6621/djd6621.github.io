@@ -1,3 +1,7 @@
 img {
         image-orientation: from-image;
 }
+
+h1 {
+        color: red;
+}
