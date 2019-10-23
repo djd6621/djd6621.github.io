@@ -12,7 +12,7 @@ body {
 }
 
 .row:after {
-        conten: "";
+        content: "";
         display: table;
         clear: both;
 }
