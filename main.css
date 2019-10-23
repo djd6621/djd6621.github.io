@@ -2,10 +2,17 @@ img {
         transform: rotate(90deg);
 }
 
-h1 {
-        color: white;
+body {
+        background-color: #333333;
 }
 
-body {
-        background-color: #333333
+.column {
+        float: left;
+        width: 50%;
+}
+
+.row:after {
+        conten: "";
+        display: table;
+        clear: both;
 }
