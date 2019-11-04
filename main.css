@@ -1,19 +1,46 @@
-img {
-        transform: rotate(90deg);
+* {
+        box-sizing: border-box;
+        font-family:cursive;
 }
 
 body {
-        background-color: #333333;
+        /**background-color: #333333; **/
+        /**background: rgb(2,0,36);
+        background: linear-gradient(326deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 0%, rgba(0,212,255,1) 78%);**/
+        background: rgb(0,255,243);
+        background: linear-gradient(211deg, rgba(0,255,243,1) 21%, rgba(93,0,255,1) 78%);
         opacity: 0 .5;
+        height: 100%;
+        margin: 0;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
 }
 
-.column {
+.col {
         float: left;
-        width: 50%;
+        width: 25%;
+        padding: 10px;
 }
 
-.row:after {
-        content: "";
-        display: table;
-        clear: both;
+.col2 {
+        float: right;
+        width: 35%;
+        padding: 10px;
 }
+
+
+.card {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        border-radius: 15px;
+        padding: 16px;
+        text-align: center;
+        background-color: #f1f1f1;
+}
+
+/**img {
+        transform: rotate(90deg);
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+
+}**/
