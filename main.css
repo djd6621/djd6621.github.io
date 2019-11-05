@@ -16,6 +16,13 @@ body {
         background-attachment: fixed;
 }
 
+.row {
+        display: flex;
+        justify-content: center;
+        width: 60%;
+        margin: auto;
+}
+
 .col {
         float: left;
         width: 25%;
