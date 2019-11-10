@@ -1,74 +1,79 @@
 * {
-        box-sizing: border-box;
-        font-family:cursive;
+  box-sizing: border-box;
+  font-family:cursive;
 }
 
 body {
-        background: rgb(0,255,243);
-        background: linear-gradient(211deg, rgba(0,255,243,1) 21%, rgba(93,0,255,1) 78%);
-        height: 100%;
-        margin: 0;
-        background-repeat: no-repeat;
-        background-attachment: fixed;
+  background: rgb(0,255,243);
+  background: linear-gradient(211deg, rgba(0,255,243,1) 21%, rgba(93,0,255,1) 78%);
+  height: 100%;
+  margin: 0;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 .row {
-        display: flex;
-        justify-content: center;
-        width: 70%;
-        margin: auto;
+  display: flex;
+  justify-content: center;
+  width: 70%;
+  margin: auto;
 }
 
 .col {
-        margin-top: : 10%;
-        width: 30%;
-        padding: 10px;
+  width: 30%;
+  padding: 10px;
 }
 
 .col2 {
-        width: 40%;
-        padding: 10px;
+  width: 40%;
+  padding: 10px;
 }
 
 
 .card {
-        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-        border-radius: 15px;
-        padding: 10px;
-        margin: auto;
-        text-align: left;
-        background-color: #f1f1f1;
-        word-wrap: break-word;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 15px;
+  padding: 10px;
+  margin: auto;
+  text-align: left;
+  background-color: #f1f1f1;
+  word-wrap: break-word;
 }
 
 .card h1, h2 {
-        text-align: center;
-        margin: 10px;
+  text-align: center;
+  margin: 10px;
+}
+
+.logos {
+  width: 100px;
+  height: 100px;
+  margin: 5px;
 }
 
 #rit {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        width: 200px;
-        height: 200px;
-        align-items: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 200px;
+  height: 200px;
+  align-items: center;
 }
 
 #profile {
-        border-radius: 360px;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        margin-bottom: auto;
-        width: 200px;
-        height: 200px;
-        transform: rotate(90deg);
-        align-items: center;
+  border-radius: 360px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: auto;
+  width: 200px;
+  height: 200px;
+  transform: rotate(90deg);
+  align-items: center;
 }
 
 hr {
-        border: 1px solid;
+  border: 1px solid;
 }
 
 /**img {
