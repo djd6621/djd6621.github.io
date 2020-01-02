@@ -1,7 +1,6 @@
 * {
   box-sizing: border-box;
-  font-size: 18px;
-  font-family: serif;
+  font-family: Calibri;
 }
 
 body {
@@ -11,6 +10,16 @@ body {
   margin: 0;
   background-repeat: no-repeat;
   background-attachment: fixed;
+}
+
+h1 {
+        text-align: center;
+        margin: auto;
+        margin-bottom: 10px;
+}
+
+hr {
+  border: 1px solid;
 }
 
 .row {
@@ -30,7 +39,6 @@ body {
   padding: 10px;
 }
 
-
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   border-radius: 15px;
@@ -41,9 +49,25 @@ body {
   word-wrap: break-word;
 }
 
-.card h1, h2 {
+.card h2 {
   text-align: center;
-  margin: 10px;
+  margin-top: 10px;
+  margin-bottom: 2px;
+  margin: auto;
+}
+
+.card h5 {
+        text-align: left;
+        margin: auto;
+        margin-bottom: 0px;
+        font-size: 18px;
+}
+
+.card p {
+        margin-bottom: 0px;
+        margin-top: 0px;
+        margin: auto;
+        font-size: 16px;
 }
 
 .logos {
@@ -69,18 +93,5 @@ body {
   margin-bottom: auto;
   width: 200px;
   height: 200px;
-  transform: rotate(90deg);
   align-items: center;
 }
-
-hr {
-  border: 1px solid;
-}
-
-/**img {
-        transform: rotate(90deg);
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-
-}**/
