@@ -1,50 +1,60 @@
-* {
-  box-sizing: border-box;
-  font-family: Calibri;
-}
-
 body {
   background: rgb(0,255,243);
   background: linear-gradient(211deg, rgba(0,255,243,1) 21%, rgba(93,0,255,1) 78%);
-  height: 100%;
-  margin: 0;
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
 
-h1 {
-        text-align: center;
-        margin: auto;
-        margin-bottom: 10px;
+.flex-container {
+  display: flex;
+  align-items: start;
+  justify-content: space-around;
+  font-family: sans-serif; 
 }
 
-hr {
-  border: 1px solid;
+.flex-container div {
+  border: 1px #ccc solid;
+  border-radius: 10px;
+  padding: 10px;
 }
 
+.container-1 {
+  background-color: #f8f8ff;
+  width: 20%;
+  order: 1;
+}
+
+.container-2 {
+  background-color: #f8f8ff;
+  width: 20%;
+  order: 2;
+}
+
+.container-3 {
+  background-color: #f8f8ff;
+  width: 20%;
+  order: 4;
+}
+
+.container-4 {
+  background-color: #f8f8ff;
+  width: 20%;
+  order: 3;
+}
 
 .logos {
   width: 75px;
   height: 75px;
-  margin: 5px;
 }
 
 #rit {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
   width: 200px;
   height: 200px;
-  align-items: center;
 }
 
 #profile {
   border-radius: 360px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: auto;
+  border: 2px solid black;
   width: 200px;
   height: 200px;
-  align-items: center;
 }
