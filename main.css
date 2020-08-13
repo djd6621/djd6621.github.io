@@ -22,53 +22,6 @@ hr {
   border: 1px solid;
 }
 
-.row {
-  display: flex;
-  justify-content: center;
-  width: 70%;
-  margin: auto;
-}
-
-.col {
-  width: 30%;
-  padding: 10px;
-}
-
-.col2 {
-  width: 40%;
-  padding: 10px;
-}
-
-.card {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  border-radius: 15px;
-  padding: 10px;
-  margin: auto;
-  text-align: left;
-  background-color: #f1f1f1;
-  word-wrap: break-word;
-}
-
-.card h2 {
-  text-align: center;
-  margin-top: 10px;
-  margin-bottom: 2px;
-  margin: auto;
-}
-
-.card h5 {
-        text-align: left;
-        margin: auto;
-        margin-bottom: 0px;
-        font-size: 18px;
-}
-
-.card p {
-        margin-bottom: 0px;
-        margin-top: 0px;
-        margin: auto;
-        font-size: 16px;
-}
 
 .logos {
   width: 75px;
